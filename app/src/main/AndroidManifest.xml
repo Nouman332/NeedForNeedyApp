@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.needforneedy">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE">
+</uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+</uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NeedForNeedy"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".UpdateScholarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateNGOActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateMonetaryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateVolunteerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateRequestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DonateFetchdta"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateDonateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NGOFetchdata"
+            android:exported="true" />
+        <activity
+            android:name=".ScholarShipFetchdata"
+            android:exported="true" />
+        <activity
+            android:name=".MonetaryDonationFetchdata"
+            android:exported="true" />
+        <activity
+            android:name=".NGO_Registration"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentSucessful"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ScholarshipForm"
+            android:exported="true" />
+        <activity
+            android:name=".forget_password"
+            android:exported="true" />
+        <activity
+            android:name=".About"
+            android:exported="true" />
+        <activity
+            android:name=".Admin"
+            android:exported="true" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Volunteerfetchdata"
+            android:exported="true" />
+        <activity
+            android:name=".DonateFoodActivity"
+            android:exported="true" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDEXDJjkXXsKO4nN384NMsSMAH_JcYkTCI" />
+
+        <activity
+            android:name=".MapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".requestfetchdata"
+            android:exported="true" />
+        <activity
+            android:name=".RequestFood"
+            android:exported="true" />
+        <activity
+            android:name=".VolunteerView"
+            android:exported="true" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".monetaryDonationAct1"
+            android:exported="true" />
+        <activity
+            android:name=".ScholarshipActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".LocationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VolunteerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VolunteerSignUp"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".MyFirebaseInstanceIDService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

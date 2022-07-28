@@ -1,0 +1,117 @@
+<resources>
+
+    <string name="app_name">Help The Needy</string>
+
+    <string name="sign_in_to_continue">Sign in to continue</string>
+
+    <string name="hello_there_welcome_back">Hello there, Welcome Back</string>
+
+    <string name="new_user_sign_up">New User? SIGN UP</string>
+
+    <string name="sign_up_to_start_your_journey">Sign Up to Start your Journey</string>
+
+    <string name="full_name">Full Name</string>
+
+    <string name="phone_no">Phone No</string>
+
+    <string name="nationwide_food_collection_and_distribution_app">Nationwide food collection and distribution App</string>
+
+    <string name="open">Open</string>
+
+    <string name="close">Close</string>
+
+    <string name="user">User</string>
+
+    <string name="admin">Admin</string>
+
+    <string name="note_once_you_submit_the_form_a_volunteer_in_your_locality_will_reach_out_to_you_for_more_information">Note: Once you submit the form ,a volunteer in your locality will reach out to you for more information.</string>
+
+    <string name="schedule_a_pickup">Schedule a pickup</string>
+
+    <string name="i_will_drop_the_food_myself">I will drop the food myself</string>
+
+    <string name="already_have_an_account_sign_in">Already have an Account? Sign In</string>
+
+    <string name="feed_the_needy">Feed the Needy</string>
+
+    <string name="diverting_excess_food_to_hungary_people">Diverting Excess Food to hungary people</string>
+
+    <string name="a_citizen_led_initiated_to_ensure_nobody_goes_hungary">A citizen-led initiated to ensure nobody goes hungary.</string>
+
+    <string name="the_donor_can_hold_an_account_in_this_application_whenever_there_is_food_wastage_he_can_login_and_enter_the_details_of_food_and_location_the_volunteer_can_also_hold_an_account_and_can_retrieve_the_details_after_retrieving_the_details_the_volunteer_can_collect_food_from_the_donor_and_can_redistribute_to_the_orphans_or_others_this_project_is_food_redistribution_is_an_enormously_successful_social_innovation_that_tackles_food_waste_and_poverty_the_user_s_details_are_maintained_confidential_because_it_maintains_a_separate_account_for_each_user">The donor can hold an account in this application whenever there is food wastage he can login and enter the details of food and location. The Volunteer can also hold an account and can retrieve the details. After retrieving the details the Volunteer can collect food from the donor and can redistribute to the orphans or others. This project is food redistribution is an enormously successful social innovation that tackles food waste and poverty. The user’s details are maintained confidential because it maintains a separate account for each user.</string>
+
+    <string name="welcome_back">Welcome Back!</string>
+
+    <string name="sign_in">Sign In</string>
+
+
+    <string name="home">Home</string>
+
+    <string name="donate_food">Donate Food</string>
+
+    <string name="request_food">Request Food</string>
+
+    <string name="volunteer">Volunteer</string>
+
+    <string name="search_near_me">Search near me</string>
+
+    <string name="about">About</string>
+
+    <string name="waste_no_food">Waste no Food</string>
+
+    <string name="request_to_get_food">Request to get Food</string>
+
+    <string name="kindly_provide_necessary_information">Kindly provide necessary Information</string>
+
+    <string name="name">NAME</string>
+
+    <string name="mobile_number">MOBILE NUMBER</string>
+
+    <string name="quantity_enough_to_feed_minimum">Quantity(Enough to feed Minimum) :</string>
+
+    <string name="full_address">FULL ADDRESS</string>
+
+    <string name="notes_what_type_of_food_can_you_do">Notes What type of Food can you do...</string>
+
+    <string name="notes_once_you_submit_the_form_a_volunteer_in_your_locality_will_reach_out_to_you_for_more_information">Notes: Once you submit the form ,a volunteer in your locality will reach out to you for more information.</string>
+
+    <string name="customize_location">CUSTOMIZE LOCATION</string>
+
+    <string name="sign_up">SIGN UP</string>
+
+    <string name="welcome">Welcome</string>
+
+    <string name="already_have_an_account_login">Already have an Account? Login</string>
+
+    <string name="welcome_volunteers">Welcome Volunteers</string>
+
+    <string name="username">Username</string>
+
+    <string name="go">Go</string>
+
+    <string name="want_to_become_volunteers_sign_up_now">Want to become Volunteers? Sign up Now</string>
+
+    <string name="become_volunteers">Become Volunteers</string>
+
+    <string name="the_best_way_to_find_yourself_is_to_lose_yourself_in_the_service_of_others">The best way to find Yourself is to lose yourself in the service of others!</string>
+
+    <string name="sign_up_now">Sign Up Now!</string>
+
+    <string name="first_name">First Name</string>
+
+    <string name="last_name">Last Name</string>
+
+    <string name="email">Email</string>
+
+    <string name="contact_no">Contact No</string>
+
+    <string name="password">Password</string>
+
+    <string name="submit_form">Submit Form</string>
+
+    <string name="help_the_needy">Help the Needy</string>
+
+    <string name="about_us">About Us</string>
+    <string name="food_donation_form">Food Donation Form</string>
+    <string name="ID">ID</string>
+</resources>

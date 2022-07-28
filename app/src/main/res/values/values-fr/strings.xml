@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <string name="app_name">Aider les nécessiteux</string>
+
+    <string name="sign_in_to_continue">Connectez-vous pour continuer</string>
+
+    <string name="hello_there_welcome_back">Connectez-vous pour continuer ...</string>
+
+    <string name="new_user_sign_up">Nouvel utilisateur? S INSCRIRE</string>
+
+    <string name="sign_up_to_start_your_journey">Inscrivez-vous pour commencer votre voyage</string>
+
+    <string name="full_name">Nom et prénom</string>
+
+    <string name="phone_no">Pas de téléphone</string>
+
+    <string name="nationwide_food_collection_and_distribution_app">Application de collecte et de distribution de nourriture à l échelle nationale</string>
+
+    <string name="open">Open</string>
+
+    <string name="close">Close</string>
+
+    <string name="user">User</string>
+
+    <string name="admin">Admin</string>
+
+    <string name="note_once_you_submit_the_form_a_volunteer_in_your_locality_will_reach_out_to_you_for_more_information">Remarque : Une fois le formulaire soumis, un bénévole de votre localité vous contactera pour plus d informations.</string>
+
+    <string name="schedule_a_pickup">Planifier un ramassage</string>
+
+    <string name="i_will_drop_the_food_myself">je laisserai tomber la nourriture moi-même</string>
+
+    <string name="already_have_an_account_sign_in">Vous avez déjà un compte? S identifier</string>
+
+    <string name="feed_the_needy">Nourrir les nécessiteux</string>
+
+    <string name="diverting_excess_food_to_hungary_people">Détourner les excès de nourriture vers les Hongrois</string>
+
+    <string name="a_citizen_led_initiated_to_ensure_nobody_goes_hungary">Une initiative citoyenne pour s assurer que personne ne va en Hongrie.</string>
+
+    <string name="the_donor_can_hold_an_account_in_this_application_whenever_there_is_food_wastage_he_can_login_and_enter_the_details_of_food_and_location_the_volunteer_can_also_hold_an_account_and_can_retrieve_the_details_after_retrieving_the_details_the_volunteer_can_collect_food_from_the_donor_and_can_redistribute_to_the_orphans_or_others_this_project_is_food_redistribution_is_an_enormously_successful_social_innovation_that_tackles_food_waste_and_poverty_the_user_s_details_are_maintained_confidential_because_it_maintains_a_separate_account_for_each_user">Le donateur peut détenir un compte dans cette application chaque fois qu il y a du gaspillage alimentaire, il peut se connecter et entrer les détails de la nourriture et de l emplacement. Le Volontaire peut également détenir un compte et récupérer les coordonnées. Après avoir récupéré les détails, le volontaire peut collecter de la nourriture auprès du donateur et peut la redistribuer aux orphelins ou à d autres. Ce projet de redistribution alimentaire est une innovation sociale extrêmement réussie qui s attaque au gaspillage alimentaire et à la pauvreté. Les détails de l utilisateur sont maintenus confidentiels car il maintient un compte séparé pour chaque utilisateur.</string>
+
+    <string name="welcome_back">Content de te revoir!</string>
+
+    <string name="sign_in">S identifier</string>
+
+    <string name="food_donation_form">Formulaire de don de nourriture</string>
+
+    <string name="home">Accueil</string>
+
+    <string name="donate_food">Faire un don de nourriture</string>
+
+    <string name="request_food">Demander de la nourriture</string>
+
+    <string name="volunteer">Bénévole</string>
+
+    <string name="search_near_me">Chercher près de moi</string>
+
+    <string name="about">Sur</string>
+
+    <string name="waste_no_food">Ne gaspillez pas de nourriture</string>
+
+    <string name="request_to_get_food">Demande pour obtenir de la nourriture</string>
+
+    <string name="kindly_provide_necessary_information">Veuillez fournir les informations nécessaires</string>
+
+    <string name="name">NOM</string>
+
+    <string name="mobile_number">NUMÉRO DE PORTABLE</string>
+
+    <string name="quantity_enough_to_feed_minimum">Quantité (assez pour nourrir au minimum) :</string>
+
+    <string name="full_address">ADRESSE COMPLÈTE</string>
+
+    <string name="notes_what_type_of_food_can_you_do">Notes Quel type de nourriture pouvez-vous faire...</string>
+
+    <string name="notes_once_you_submit_the_form_a_volunteer_in_your_locality_will_reach_out_to_you_for_more_information">Remarques : Une fois le formulaire soumis, un bénévole de votre localité vous contactera pour plus d informations.</string>
+
+    <string name="customize_location">PERSONNALISER L EMPLACEMENT</string>
+
+    <string name="sign_up">S INSCRIRE</string>
+
+    <string name="welcome">Bienvenu</string>
+
+    <string name="already_have_an_account_login">Vous avez déjà un compte? Connexion</string>
+
+    <string name="welcome_volunteers">Bienvenue aux bénévoles</string>
+
+    <string name="username">Nom d utilisateur</string>
+
+    <string name="go">Aller</string>
+
+    <string name="want_to_become_volunteers_sign_up_now">Envie de devenir Volontaires ? S inscrire maintenant</string>
+
+    <string name="become_volunteers">Devenez bénévoles</string>
+
+    <string name="the_best_way_to_find_yourself_is_to_lose_yourself_in_the_service_of_others">Le meilleur moyen de se retrouver est de se perdre au service des autres !</string>
+
+    <string name="sign_up_now">S inscrire maintenant!</string>
+
+    <string name="first_name">Prénom</string>
+
+    <string name="last_name">Nom de famille</string>
+
+    <string name="email">E-mail</string>
+
+    <string name="contact_no">N° de contact</string>
+
+    <string name="password">Mot de passe</string>
+
+    <string name="submit_form">Soumettre le formulaire</string>
+
+    <string name="help_the_needy">Aider les nécessiteux</string>
+
+    <string name="about_us">Sur le</string>
+
+</resources>

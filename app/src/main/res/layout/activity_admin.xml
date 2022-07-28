@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Admin">
+
+
+    <TextView
+        android:id="@+id/txtNGO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/bungee"
+        android:textSize="18sp"
+        android:textColor="@color/puce"
+        android:text="NGOs"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAdd"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@id/txtNGO"
+        android:backgroundTint="@color/puce"
+        android:padding="5dp"
+        android:background="@drawable/round"
+        android:text="Add"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolunteer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAdd"
+        android:padding="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/puce"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        android:text="View Volunteer Info" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnVolunteer"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@color/puce"
+        android:background="@drawable/round"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="View Donor Info" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNeedy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDonor"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/round"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/puce"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="View Needy Info" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMonetaryDonation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDonor"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="@color/puce"
+        android:padding="20dp"
+        android:text="View Monetary Donation Info"
+        android:background="@drawable/round"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnScholarShip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDonor"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="213dp"
+        android:backgroundTint="@color/puce"
+        android:padding="20dp"
+        android:text="View Scholar Ship Info"
+        android:background="@drawable/round"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNGO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDonor"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="319dp"
+        android:backgroundTint="@color/puce"
+        android:background="@drawable/round"
+        android:padding="20dp"
+        android:text="View NGO Info"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

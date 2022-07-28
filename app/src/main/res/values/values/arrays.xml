@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_name">
+
+<!--        <item>Enter Quantity(Minimum)</item>-->
+        <item>1 person</item>
+        <item>2 person</item>
+        <item>3 person</item>
+        <item>4 person</item>
+        <item>5 person</item>
+        <item>10 person</item>
+        <item>15 person</item>
+        <item>20 person</item>
+        <item>100+ person</item>
+    </string-array>
+</resources>

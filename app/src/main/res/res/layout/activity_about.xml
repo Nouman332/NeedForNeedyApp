@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        >
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/aboutImg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/donate" />
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/aboutImg"
+            android:fontFamily="@font/bungee"
+            android:text="@string/app_name"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/motto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutImg"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="10dp"
+            android:text="Helping needy in providing excess food, scholarships and monetary donations for health"
+            android:textColor="@color/gray"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/motto"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/marko_one"
+            android:text=" A citizen led initiated"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_baseline_people_alt_24"
+            android:id="@+id/aboutmotto"
+            android:layout_marginLeft="7dp"
+            android:alpha="0.8"
+            android:layout_below="@id/motto"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/p1"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/marko_one"
+            android:text="@string/the_donor_can_hold_an_account_in_this_application_whenever_there_is_food_wastage_he_can_login_and_enter_the_details_of_food_and_location_the_volunteer_can_also_hold_an_account_and_can_retrieve_the_details_after_retrieving_the_details_the_volunteer_can_collect_food_from_the_donor_and_can_redistribute_to_the_orphans_or_others_this_project_is_food_redistribution_is_an_enormously_successful_social_innovation_that_tackles_food_waste_and_poverty_the_user_s_details_are_maintained_confidential_because_it_maintains_a_separate_account_for_each_user"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

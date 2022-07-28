@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".monetaryDonationAct1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="12dp"
+        android:text="Edit Form"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="50dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donation Amount(in PKR)"
+                android:textColor="@color/puce"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_baseline_attach_money_24"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/etAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Donation Amount"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:singleLine="true"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Full Name"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:textColor="@color/puce"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Donor Name"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:singleLine="true"
+                android:padding="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/txtNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Number"
+                android:textColor="@color/puce"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_baseline_smartphone_24"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/etNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Number"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:singleLine="true"
+                android:padding="10dp"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnUpdate"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:onClick="update"
+                android:text="Update"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

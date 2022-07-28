@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/green"
+    tools:context=".UserActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/gray"
+            android:backgroundTint="@color/green"
+            android:textStyle="bold"
+            android:id="@+id/user"
+            android:text="@string/user"
+            android:textSize="28sp"
+            android:fontFamily="@font/bungee"
+            android:onClick="onUserButtonClicked"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/volunteer"
+            android:layout_marginTop="10dp"
+            android:text="@string/volunteer"
+            android:textSize="28sp"
+            android:layout_below="@+id/user"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:fontFamily="@font/bungee"
+
+            android:textColor="@color/gray"
+            android:backgroundTint="@color/green"
+            android:textStyle="bold"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/admin"
+            android:onClick="onAdminButtonClicked"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/volunteer"
+            android:fontFamily="@font/bungee"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="@color/gray"
+            android:text="@string/admin"
+            android:backgroundTint="@color/green"
+            android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>

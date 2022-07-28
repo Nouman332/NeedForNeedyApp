@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="app_name1">
+
+        <item>Karachi</item>
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Rawalpindi</item>
+    </string-array>
+</resources>

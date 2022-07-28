@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UpdateVolunteerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Edit Form"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            >
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstName"
+                app:boxStrokeColor="@color/gray"
+                app:hintTextColor="@color/puce"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/full_name"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/ic_baseline_person_24"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user"
+                app:boxStrokeColor="@color/gray"
+                app:hintTextColor="@color/puce"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/username"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/ic_baseline_person_24"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                app:boxStrokeColor="@color/gray"
+                app:hintTextColor="@color/puce"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/email"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:drawableLeft="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone"
+                app:boxStrokeColor="@color/gray"
+                app:hintTextColor="@color/puce"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/phone_no"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:drawableLeft="@drawable/ic_baseline_phone_iphone_24"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                app:boxStrokeColor="@color/gray"
+                app:hintTextColor="@color/puce"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/password"
+                app:passwordToggleEnabled="true"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Confirmpassword"
+                app:boxStrokeColor="@color/gray"
+                app:hintTextColor="@color/puce"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/confirm_password"
+                app:passwordToggleEnabled="true"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/marko_one"
+            android:text="What days of the week work  best for your schedule"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/chkMonday"
+            android:layout_width="393dp"
+            android:layout_height="37dp"
+            android:fontFamily="@font/marko_one"
+            android:text="Monday"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/chkTuesday"
+            android:layout_width="389dp"
+            android:layout_height="37dp"
+            android:fontFamily="@font/marko_one"
+            android:text="Tuesday"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/chkWednesday"
+            android:layout_width="393dp"
+            android:layout_height="38dp"
+            android:fontFamily="@font/marko_one"
+            android:text="Wednesday"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/chkThursday"
+            android:layout_width="389dp"
+            android:layout_height="36dp"
+            android:fontFamily="@font/marko_one"
+            android:text="Thursday"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/chkFriday"
+            android:layout_width="393dp"
+            android:layout_height="37dp"
+            android:fontFamily="@font/marko_one"
+            android:text="Friday"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/chkSaturday"
+            android:layout_width="395dp"
+            android:layout_height="37dp"
+            android:fontFamily="@font/marko_one"
+            android:text="Saturday"
+            android:textSize="14sp" />
+
+
+        <CheckBox
+            android:id="@+id/chkSunday"
+            android:layout_width="395dp"
+            android:layout_height="37dp"
+            android:fontFamily="@font/marko_one"
+            android:text="Sunday"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/marko_one"
+            android:text="Enter Your City"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="273dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnUpdate"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round"
+            android:onClick="update"
+            android:text="update"
+            android:textColor="@color/white"
+            tools:ignore="OnClick" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

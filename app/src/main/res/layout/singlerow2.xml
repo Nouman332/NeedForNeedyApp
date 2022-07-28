@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp"
+    android:elevation="4dp"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="#cbddd1"
+        >
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Name:"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayName"
+            android:textSize="25sp"
+            android:text="Name"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="MOBILE NUMBER:"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayMOBILE_NUMBER"
+            android:textSize="25sp"
+            android:text="MOBILE_NUMBER"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="FULL ADDRESS:"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayFULL_ADDRESS"
+            android:textSize="25sp"
+            android:text="FULL_ADDRESS"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="TypeOfFood:"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displaytypeoffood"
+            android:textSize="25sp"
+            android:text="typeOfFood"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Person:"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displaySpinner"
+            android:textSize="25sp"
+            android:text="Spinner"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Area:"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayCurrentLocation"
+            android:textSize="25sp"
+            android:text="CurrentLocation"
+            android:layout_marginTop="3dp"
+            />
+        <LinearLayout
+
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Edit"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Edit"
+                android:drawableLeft="@drawable/ic_edit_black_24dp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/Delete"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_delete_black_24dp"
+                android:text="Delete"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

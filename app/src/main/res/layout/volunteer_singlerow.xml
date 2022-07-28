@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp"
+    android:elevation="4dp"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="#cbddd1"
+        >
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Name:"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayFullName"
+            android:textSize="25sp"
+            android:text="FullName"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Username:"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayUsername"
+            android:textSize="25sp"
+            android:text="Username"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Email:"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayEmail"
+            android:textSize="25sp"
+            android:text="Email"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Phone No:"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayPhoneNo"
+            android:textSize="25sp"
+            android:text="Phone No"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Password:"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayPassword"
+            android:textSize="25sp"
+            android:text="Password"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Confirm Password:"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayConfirmPassword"
+            android:textSize="25sp"
+            android:text="ConfirmPassword"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="WeekDay:"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayCheckbox"
+            android:textSize="25sp"
+            android:text="CheckBox"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="City:"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displaySpinner"
+            android:textSize="25sp"
+            android:text="Spinner"
+            android:layout_marginTop="3dp"
+            />
+
+        <LinearLayout
+
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Edit"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Edit"
+                android:drawableLeft="@drawable/ic_edit_black_24dp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/Delete"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_delete_black_24dp"
+                android:text="Delete"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
